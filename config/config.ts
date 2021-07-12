@@ -1,29 +1,32 @@
-export default {
-  title: 'Build Your Lib',
-  favicon:
-    'https://test-saas-passport.codemao.biz/files/images/global/favicon-saas.ico',
-  logo: 'https://test-saas-passport.codemao.biz/files/images/global/favicon-saas.ico',
+import { defineConfig } from 'umi';
+
+export default defineConfig({
+  publicPath: process.env.NODE_ENV === 'production' ? '/builder/' : '/',
+  base: process.env.NODE_ENV === 'production' ? '/builder/' : '/',
+  title: 'Builder',
+  favicon: '/images/logo.png',
+  logo: '/images/logo.png',
   mode: 'site',
   navs: [
     {
-      title: '快速上手',
+      title: '开发指南',
       path: '/guide',
     },
     {
-      title: '工具方法',
+      title: 'utils',
       path: '/utils',
     },
     {
-      title: 'Hooks',
+      title: 'hooks',
       path: '/hooks',
     },
     {
-      title: '组件',
+      title: 'components',
       path: '/components',
     },
     {
       title: 'GitHub',
-      path: 'https://github.com/umijs/dumi',
+      path: 'https://github.com/Peroluo/builder',
     },
   ],
-};
+});

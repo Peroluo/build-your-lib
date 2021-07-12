@@ -1,7 +1,7 @@
 ---
 title: useLoading
 nav:
-  title: hooks
+  title: useLoading
   path: /hooks
 ---
 

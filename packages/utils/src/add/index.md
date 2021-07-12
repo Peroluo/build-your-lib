@@ -1,7 +1,7 @@
 ---
 title: add
 nav:
-  title: 工具方法
+  title: add
   path: /utils
 ---
 

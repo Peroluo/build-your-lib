@@ -1,5 +1,5 @@
 ---
-title: components
+title: Button
 nav:
   title: Button
   path: /components

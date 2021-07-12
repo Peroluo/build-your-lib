@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "build-your-lib",
+  "name": "builder",
   "version": "1.0.0",
   "scripts": {
     "start": "dumi dev",
